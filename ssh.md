@@ -22,7 +22,7 @@ Identity_file:
 # ssh -i ~/.ssh/id_ed25519 <username>@<remote_server_ip>
 
 Copy id 2 remote server:
-#ssh-copy-id <username>@<remote_server_ip>
+# ssh-copy-id <username>@<remote_server_ip>
 
 ssh-config:
 ```
