@@ -16,9 +16,8 @@
 # git add README.md
 # git commit -m "Added README file"
 
-```
-git ssh connection - see ssh.md
-```
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
 # git push origin main
 
 ```
