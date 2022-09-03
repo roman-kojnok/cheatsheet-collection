@@ -1,4 +1,4 @@
-# ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "d3c0d3r@server.com"
+# ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "name@email.com"
 
 ```
     -o : Save the private-key using the new OpenSSH format rather than the PEM format. Actually, this option is implied when you specify the key type as ed25519.
@@ -18,5 +18,8 @@ Check SSH Agent:
 Add new KEY:
 # ssh-add ~/.ssh/id_ed25519
 
+Identity_file:
+# ssh -i ~/.ssh/id_ed25519 <username>@<remote_server_ip>
 
-# ssh -i ~/.ssh/id_ed25519 remote@198.222.111.33
+Copy id 2 remote server:
+#ssh-copy-id <username>@<remote_server_ip>
