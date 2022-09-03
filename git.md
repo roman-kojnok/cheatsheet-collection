@@ -14,6 +14,7 @@
 # touch README.md
 # git status
 # git add README.md
+# git status
 # git commit -m "Added README file"
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
