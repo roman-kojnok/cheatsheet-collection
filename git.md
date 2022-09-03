@@ -17,7 +17,7 @@
 # git commit -m "Added README file"
 
 ```
-ssh connection
+git ssh connection - see ssh.md
 ```
 # git push origin main
 
