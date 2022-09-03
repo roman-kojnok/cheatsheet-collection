@@ -18,6 +18,9 @@
 # git commit -m "Added README file"
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+# git remote -v
+# git remote set-url origin git@bitbucket.org:repo/project.git
+# git remote -v
 
 # git push origin main
 
