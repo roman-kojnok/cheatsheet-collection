@@ -23,3 +23,23 @@ Identity_file:
 
 Copy id 2 remote server:
 #ssh-copy-id <username>@<remote_server_ip>
+
+ssh-config:
+```
+Host github.com
+  HostName github.com
+  User git
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519git
+
+Host *
+	IdentitiesOnly=yes
+	PreferredAuthentications=publickey
+	AddressFamily inet
+	Protocol 2
+	Compression yes
+	ServerAliveInterval 60
+	ServerAliveCountMax 20
+	LogLevel INFO
+  
+```
